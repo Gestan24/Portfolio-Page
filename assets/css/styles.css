@@ -10,11 +10,13 @@ header {
 
     justify-content: space-between;
 
+    align-items: center;
+
     flex-wrap: wrap;
 
     background-color: rgb(30, 235, 208);
 
-    padding: 25px 35px;
+    padding: 0 35px;
 
     position: -webkit-sticky;
 
@@ -91,7 +93,53 @@ footer {
 
     background-color: rgb(30, 235, 208);
 
-    padding: 25px 35px;
+    padding: 15px 35px;
+
+}
+
+footer h2 {
+
+    flex: 0 15%;
+
+    font-weight: bold;
+
+    font-size: 40px;
+
+    color: var(--secondary-color);
+
+    margin: 0;
+
+    text-shadow: 0 0 15px rgba(0, 0, 0, .6);
+
+}
+
+footer a { 
+    
+    color: var(--secondary-color);
+
+}
+
+footer div address {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+footer div address a{
+
+    padding: 10px 15px;
+
+    font-weight: light;
+
+    font-size: 1.4vw;
+
+    text-shadow: 0 0 20px rgba(0, 0, 0, .6);
 
 }
 
