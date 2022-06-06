@@ -1,0 +1,99 @@
+:root {
+
+    --secondary-color: rgb(238, 238, 195);
+
+}
+
+header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    background-color: rgb(30, 235, 208);
+
+    padding: 25px 35px;
+
+    position: -webkit-sticky;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 9999;
+
+}
+
+header h1 {
+
+    font-weight: bold;
+
+    font-size: 40px;
+
+    color: var(--secondary-color);
+
+    margin: 0;
+
+    text-shadow: 0 0 15px rgba(0, 0, 0, .6);
+
+}
+
+header a {
+
+    color: var(--secondary-color);
+
+    text-decoration: none;
+
+}
+
+header nav {
+
+    margin: 7px 0;
+
+}
+
+header nav ul {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    list-style: none;
+
+}
+
+header nav ul li a {
+
+    padding: 10px 15px;
+
+    font-weight: light;
+
+    font-size: 1.7vw;
+
+    text-shadow: 0 0 15px rgba(0, 0, 0, .6);
+
+}
+
+footer {
+
+    
+    display: flex;
+
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    background-color: rgb(30, 235, 208);
+
+    padding: 25px 35px;
+
+}
+
+
+
