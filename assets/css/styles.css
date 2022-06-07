@@ -4,6 +4,8 @@
 
     --secondary-color: rgb(238, 238, 195);
 
+    --hover: rgb(156, 19, 247); 
+
 }
 
 
@@ -170,7 +172,7 @@ section {
 
 }
 
-.about {
+.about, .works {
 
     display: flex;
 
@@ -186,6 +188,26 @@ section {
 
 }
 
+.work {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.app-link:hover {
+
+    color: var(--hover);
+
+    background: var(--hover);
+
+}
+
 .about-me-text {
 
     display: flex;
@@ -196,13 +218,17 @@ section {
 
     align-items: flex-start;
     
-    width: 50%;
+    width: 60%;
 
     padding: 0 50px 50px 0;
 
     margin: 0 auto 0 15px;
 
-    line-height: 1.3vw;
+    line-height: 1.6vw;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-style: italic;
     
 }
 
@@ -215,6 +241,7 @@ section {
 
     text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
+
 
 .flex-row {
 
@@ -232,8 +259,69 @@ section {
 
     margin: 0 auto 35px auto;
 
+}
 
- }
+.secondary-border { 
+
+    font-size: 48px;
+
+    border-bottom: 4px solid;
+
+    padding-right: 9px;
+
+    margin: 0 auto 35px auto;
+
+    top: 0;
+
+}
+
+.run-buddy, .horiseon {
+
+    background-color: var(--secondary-color);
+
+    position: absolute;
+
+    bottom: -35%;
+
+    padding: 15px;
+
+    margin: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.fp-1, .fp-2 {
+
+    background-color: var(--secondary-color);
+
+    position: absolute;
+
+    bottom: -60%;
+
+    padding: 15px;
+
+    margin: 20px;
+
+}
+
+.app-link {
+
+    padding: 15px;
+
+    border: solid 10px green;
+
+    margin: 7px;
+}
+
+.element {
+
+    color: green;
+
+   font-size: 14px;
+}
 
 
 
