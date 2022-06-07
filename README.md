@@ -4,7 +4,7 @@
 ## Purpose
 
 A website that allows employers to get to know more about me, the work I've done, and how to get in touch with me.
-This website will be an essential element to let employers know what I'm cable of and more importantly what I can bring to their company!
+This website will be an essential element to let employers know what I'm capable of and more importantly what I can bring to their company!
 
 
 
